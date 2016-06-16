@@ -310,19 +310,11 @@ header.header{
       display: flex;
       position: relative;
       &.rocket-gif{
-        // opacity: 0;
-        // visibility: hidden !important;
-        // z-index: -1;
         min-height: 1030px;
         @include prefix(transition, all .5s ease .5s);
         img{
           position: relative;
           // top: 60px;
-        }
-        &.visibl{
-          opacity: 1;
-          visibility: visible !important;
-          z-index: 5;
         }
       }
       &:first-child ul,
@@ -400,9 +392,6 @@ h3.ttl{
     height: 565px;
     opacity: 0;
     @include prefix(transition, all .5s ease .5s);
-    &.visibl{
-      opacity: 1;
-    }
   }
   .solution-block{
     display: -webkit-flex;

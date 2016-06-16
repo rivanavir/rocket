@@ -14,7 +14,6 @@ $(document).ready(function () {
           var loop = $(box).data('loop');
           setTimeout(function functionName() {
             $(box).find('img').attr('src', intro);
-            // $(box).addClass('visibl');
           }, 1000);
           setTimeout(function functionName() {
             $(box).find('img').attr('src', loop);
@@ -23,7 +22,6 @@ $(document).ready(function () {
         if($(box).hasClass('ring-wrap')){
           var intro = $(box).data('intro');
           var loop = $(box).data('loop');
-          // $(box).addClass('visibl');
           $(box).find('img').attr('src', intro);
           setTimeout(function functionName() {
             $(box).find('img').attr('src', loop);
