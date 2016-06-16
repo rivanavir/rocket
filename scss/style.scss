@@ -390,7 +390,6 @@ h3.ttl{
   .ring-wrap{
     padding: 55px 0;
     height: 565px;
-    opacity: 0;
     @include prefix(transition, all .5s ease .5s);
   }
   .solution-block{
