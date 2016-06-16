@@ -99,7 +99,7 @@ header.header .navbar .navbar-collapse .navbar-nav li a:after { position: absolu
 .rocket-wrap p { text-align: center; font-weight: 300; font-size: 18px; color: white; line-height: 1.4; }
 .rocket-wrap .rocket-block-wrap { display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; height: 75%; position: relative; }
 .rocket-wrap .rocket-block-wrap .rocket-block { width: 33.333%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; position: relative; }
-.rocket-wrap .rocket-block-wrap .rocket-block.rocket-gif { opacity: 0; visibility: hidden !important; z-index: -1; transition: all 0.5s ease 0.5s; }
+.rocket-wrap .rocket-block-wrap .rocket-block.rocket-gif { min-height: 1030px; transition: all 0.5s ease 0.5s; }
 .rocket-wrap .rocket-block-wrap .rocket-block.rocket-gif img { position: relative; }
 .rocket-wrap .rocket-block-wrap .rocket-block.rocket-gif.visibl { opacity: 1; visibility: visible !important; z-index: 5; }
 .rocket-wrap .rocket-block-wrap .rocket-block:first-child ul li:not(:last-child):after, .rocket-wrap .rocket-block-wrap .rocket-block:last-child ul li:not(:last-child):after { position: absolute; content: ''; display: block; width: 11px; height: 11px; border-radius: 50%; background: #18ccd1; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }

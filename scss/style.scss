@@ -310,9 +310,10 @@ header.header{
       display: flex;
       position: relative;
       &.rocket-gif{
-        opacity: 0;
-        visibility: hidden !important;
-        z-index: -1;
+        // opacity: 0;
+        // visibility: hidden !important;
+        // z-index: -1;
+        min-height: 1030px;
         @include prefix(transition, all .5s ease .5s);
         img{
           position: relative;
