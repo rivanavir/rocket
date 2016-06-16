@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   $("video").prop('muted', false);
 
-  $("body").smoothWheel();
+  // $("body").smoothWheel();
 
   wow = new WOW(
     {
@@ -12,11 +12,9 @@ $(document).ready(function () {
           var loop = $(box).data('loop');
           var img = '<img src="" />';
           setTimeout(function functionName() {
-            // $(box).find('img').attr('src', intro);
             $(box).html('<img src="'+ intro +'" />');
             setTimeout(function functionName() {
               $(box).html('<img src="'+ loop +'" />');
-              // $(box).find('img').attr('src', loop);
             }, 6500);
           }, 1000);
         }
@@ -24,10 +22,8 @@ $(document).ready(function () {
           var intro = $(box).data('intro');
           var loop = $(box).data('loop');
           $(box).html('<img src="'+ intro +'" />');
-          // $(box).find('img').attr('src', intro);
           setTimeout(function functionName() {
             $(box).html('<img src="'+ loop +'" />');
-            // $(box).find('img').attr('src', loop);
           }, 5900);
         }
       }
@@ -36,7 +32,6 @@ $(document).ready(function () {
   wow.init();
 
 });
-
 
 /* https://github.com/fatlinesofcode/jquery.smoothwheel */
 (function ($) {

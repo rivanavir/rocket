@@ -55,8 +55,6 @@ input, select, textarea { font-family: 'Gotham'; color: #95a5a6; padding: 5px; }
 
 html, body { height: 100%; min-height: 100%; }
 
-body { position: absolute; }
-
 header.header { position: fixed; left: 0; top: 0; width: 100%; z-index: 9999; }
 header.header .navbar { background-color: rgba(20, 42, 56, 0.8); border: 0; border-radius: 0; margin-bottom: 0; }
 header.header .navbar .navbar-header .navbar-brand { margin-left: 25%; height: 72px; padding: 0; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; align-items: center; }
