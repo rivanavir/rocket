@@ -7,24 +7,22 @@ $(document).ready(function () {
   wow = new WOW(
     {
       callback: function(box) {
-        var introRocket = './images/rocket_intro.gif';
-        var loopRocket = './images/rocket_loop.gif';
-        var introRing = './images/ring_intro.gif';
-        var loopRing = './images/ring_loop.gif';
+        var intro = $(box).data('intro');
+        var loop = $(box).data('loop');
         if($(box).hasClass('rocket-gif')){
           setTimeout(function functionName() {
-            $(box).find('img').attr('src', introRocket);
+            $(box).find('img').attr('src', intro);
             $(box).addClass('visibl');
           }, 1000);
           setTimeout(function functionName() {
-            $(box).find('img').attr('src', loopRocket);
+            $(box).find('img').attr('src', loop);
           }, 7600);
         }
         if($(box).hasClass('ring-wrap')){
           $(box).addClass('visibl');
-          $(box).find('img').attr('src', introRing);
+          $(box).find('img').attr('src', intro);
           setTimeout(function functionName() {
-            $(box).find('img').attr('src', loopRing);
+            $(box).find('img').attr('src', loop);
           }, 5900);
         }
       }
