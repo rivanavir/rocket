@@ -19,7 +19,7 @@ $(document).ready(function () {
           }, 7600);
         }
         if($(box).hasClass('ring-wrap')){
-          $(box).addClass('visibl');
+          // $(box).addClass('visibl');
           $(box).find('img').attr('src', intro);
           setTimeout(function functionName() {
             $(box).find('img').attr('src', loop);
