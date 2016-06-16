@@ -12,7 +12,7 @@ $(document).ready(function () {
         if($(box).hasClass('rocket-gif')){
           setTimeout(function functionName() {
             $(box).find('img').attr('src', intro);
-            $(box).addClass('visibl');
+            // $(box).addClass('visibl');
           }, 1000);
           setTimeout(function functionName() {
             $(box).find('img').attr('src', loop);
