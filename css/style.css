@@ -104,7 +104,7 @@ header.header .navbar .navbar-collapse .navbar-nav li a:after { position: absolu
 .rocket-wrap .rocket-block-wrap .rocket-block:first-child ul li:not(:last-child):after, .rocket-wrap .rocket-block-wrap .rocket-block:last-child ul li:not(:last-child):after { position: absolute; content: ''; display: block; width: 11px; height: 11px; border-radius: 50%; background: #18ccd1; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
 .rocket-wrap .rocket-block-wrap .rocket-block:first-child ul li:not(:last-child):after { right: -35px; }
 .rocket-wrap .rocket-block-wrap .rocket-block:last-child ul li:not(:last-child):after { left: -35px; }
-.rocket-wrap .rocket-block-wrap .rocket-block ul.rocket-list { display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: column; justify-content: center; margin-bottom: 0; align-self: stretch; }
+.rocket-wrap .rocket-block-wrap .rocket-block ul.rocket-list { display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: column; justify-content: center; margin-bottom: 0; align-self: stretch; padding: 190px 0; }
 .rocket-wrap .rocket-block-wrap .rocket-block ul.rocket-list li { font-weight: 900; font-size: 16px; text-transform: uppercase; color: white; margin: 10% 0; position: relative; }
 .rocket-wrap .rocket-block-wrap .rocket-block ul.rocket-list li button.button-link { font-weight: 900; }
 
