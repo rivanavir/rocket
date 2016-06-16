@@ -15,7 +15,7 @@ $(document).ready(function () {
             // $(box).addClass('visibl');
           }, 1000);
           setTimeout(function functionName() {
-            $(box).find('img').attr('src', loop);
+            // $(box).find('img').attr('src', loop);
           }, 7600);
         }
         if($(box).hasClass('ring-wrap')){
