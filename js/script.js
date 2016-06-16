@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   $("video").prop('muted', false);
 
-  // $("body").smoothWheel();
+  $("body").smoothWheel();
 
   wow = new WOW(
     {
@@ -17,7 +17,7 @@ $(document).ready(function () {
             setTimeout(function functionName() {
               $(box).html('<img src="'+ loop +'" />');
               // $(box).find('img').attr('src', loop);
-            }, 6450);
+            }, 6500);
           }, 1000);
         }
         if($(box).hasClass('ring-wrap')){

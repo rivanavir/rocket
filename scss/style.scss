@@ -23,7 +23,9 @@ html, body{
   height: 100%;
   min-height: 100%;
 }
-
+body{
+  position: absolute;
+}
 header.header{
   position: fixed;
   left: 0;
