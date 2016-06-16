@@ -311,7 +311,7 @@ header.header{
       position: relative;
       &.rocket-gif{
         opacity: 0;
-        visibility: hidden;
+        visibility: hidden !important;
         z-index: -1;
         @include prefix(transition, all .5s ease .5s);
         img{
@@ -320,7 +320,7 @@ header.header{
         }
         &.visibl{
           opacity: 1;
-          visibility: visible;
+          visibility: visible !important;
           z-index: 5;
         }
       }
