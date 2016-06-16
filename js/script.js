@@ -9,13 +9,15 @@ $(document).ready(function () {
       callback: function(box) {
         var intro = $(box).data('intro');
         var loop = $(box).data('loop');
+        console.log(intro);
+        console.log(loop);
         if($(box).hasClass('rocket-gif')){
           setTimeout(function functionName() {
             $(box).find('img').attr('src', intro);
             // $(box).addClass('visibl');
           }, 1000);
           setTimeout(function functionName() {
-            // $(box).find('img').attr('src', loop);
+            $(box).find('img').attr('src', loop);
           }, 7600);
         }
         if($(box).hasClass('ring-wrap')){
