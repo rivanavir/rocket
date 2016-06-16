@@ -7,11 +7,11 @@ $(document).ready(function () {
   wow = new WOW(
     {
       callback: function(box) {
-        var intro = $(box).data('intro');
-        var loop = $(box).data('loop');
-        console.log(intro);
-        console.log(loop);
+        // console.log(intro);
+        // console.log(loop);
         if($(box).hasClass('rocket-gif')){
+          var intro = $(box).data('intro');
+          var loop = $(box).data('loop');
           setTimeout(function functionName() {
             $(box).find('img').attr('src', intro);
             // $(box).addClass('visibl');
@@ -21,6 +21,8 @@ $(document).ready(function () {
           }, 7600);
         }
         if($(box).hasClass('ring-wrap')){
+          var intro = $(box).data('intro');
+          var loop = $(box).data('loop');
           // $(box).addClass('visibl');
           $(box).find('img').attr('src', intro);
           setTimeout(function functionName() {
