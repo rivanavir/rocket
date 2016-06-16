@@ -10,19 +10,24 @@ $(document).ready(function () {
         if($(box).hasClass('rocket-gif')){
           var intro = $(box).data('intro');
           var loop = $(box).data('loop');
+          var img = '<img src="" />';
           setTimeout(function functionName() {
-            $(box).find('img').attr('src', intro);
+            // $(box).find('img').attr('src', intro);
+            $(box).html('<img src="'+ intro +'" />');
             setTimeout(function functionName() {
-              $(box).find('img').attr('src', loop);
-            }, 6600);
+              $(box).html('<img src="'+ loop +'" />');
+              // $(box).find('img').attr('src', loop);
+            }, 6450);
           }, 1000);
         }
         if($(box).hasClass('ring-wrap')){
           var intro = $(box).data('intro');
           var loop = $(box).data('loop');
-          $(box).find('img').attr('src', intro);
+          $(box).html('<img src="'+ intro +'" />');
+          // $(box).find('img').attr('src', intro);
           setTimeout(function functionName() {
-            $(box).find('img').attr('src', loop);
+            $(box).html('<img src="'+ loop +'" />');
+            // $(box).find('img').attr('src', loop);
           }, 5900);
         }
       }
