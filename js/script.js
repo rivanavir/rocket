@@ -7,17 +7,15 @@ $(document).ready(function () {
   wow = new WOW(
     {
       callback: function(box) {
-        // console.log(intro);
-        // console.log(loop);
         if($(box).hasClass('rocket-gif')){
           var intro = $(box).data('intro');
           var loop = $(box).data('loop');
           setTimeout(function functionName() {
             $(box).find('img').attr('src', intro);
+            setTimeout(function functionName() {
+              $(box).find('img').attr('src', loop);
+            }, 6600);
           }, 1000);
-          setTimeout(function functionName() {
-            $(box).find('img').attr('src', loop);
-          }, 7600);
         }
         if($(box).hasClass('ring-wrap')){
           var intro = $(box).data('intro');
