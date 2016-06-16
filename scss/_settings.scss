@@ -1,0 +1,20 @@
+// variables and mixins
+
+$main-aqua: #18ccd1;
+$grey-bg: #f0f4f4;
+
+$main-txt-color: #95a5a6;
+$aqua-txt: $main-aqua;
+$dark-txt: #142a38;
+
+
+// prefixes mixin
+
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+
+  // Output standard non-prefixed declaration
+  #{$property}: $value;
+}
