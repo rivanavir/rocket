@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   $("video").prop('muted', false);
 
-  $("body").smoothWheel();
+  // $("body").smoothWheel();
 
   wow = new WOW(
     {
